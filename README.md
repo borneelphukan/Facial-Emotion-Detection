@@ -5,3 +5,5 @@
 
 The model makes use of FER2013 dataset. Download from https://drive.google.com/open?id=1RoDLjzTzkQPAyizRzJmkjowXFFwH_n_M
 
+References:
+1. O'Shea, Keiron & Nash, Ryan. (2015). An Introduction to Convolutional Neural Networks. ArXiv e-prints. 
