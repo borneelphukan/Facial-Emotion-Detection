@@ -14,5 +14,15 @@ The model makes use of FER2013 dataset.
 1. [FER2013 (Google Drive)](http://drive.google.com/open?id=1RoDLjzTzkQPAyizRzJmkjowXFFwH_n_M)
 2. [Kaggle Source](https://www.kaggle.com/deadskull7/fer2013)
 
-### References:
-1. O'Shea, Keiron & Nash, Ryan. (2015). An Introduction to Convolutional Neural Networks. ArXiv e-prints. 
+### Screenshots
+![Happy](/Screenshots/Happy.png)
+|:--:| 
+| *Detecting Happy Expression* |
+![Surprised](/Screenshots/Surprised.png)
+| *Detecting Surprised Expression* |
+![Disgusted](/Screenshots/Disgusted.png)
+| *Detecting Disgusted Expression* |
+![Neutral](/Screenshots/Neutral.png)
+| *Detecting Neutral Expression* |
+![Angry](/Screenshots/Angry.png)
+| *Detecting Angry Expression* |
