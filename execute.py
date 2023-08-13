@@ -4,10 +4,9 @@ from keras.models import load_model
 import imutils
 import cv2
 
-cascade_path = 'harrcascade_files/haarcascade_frontalface_default.xml'
 model_weight = 'borneel_xception.hdf5'
 
-face_detection = cv2.CascadeClassifier(cascade_path)
+face_detection = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
 emotion_classifier = load_model(model_weight, compile=False)
 face_emotions = ["ANGRY" ,"DISGUSTED","FEARFUL", "HAPPY", "SAD", "SURPRISED", "NEUTRAL"]
 feeling_faces = []
